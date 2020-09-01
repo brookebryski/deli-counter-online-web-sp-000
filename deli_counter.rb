@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
   array.each do |index|
-    puts "The line is currently #{index + 1}"
+    puts "The line is currently #{index.to_i+1}"
 end
 
 def take_a_number(katz_deli,name)
